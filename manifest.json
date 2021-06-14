@@ -6,7 +6,7 @@
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": ["storage", "activeTab", "scripting", "alarms", "tabs"],
+  "permissions": ["storage", "scripting", "alarms", "tabs"],
   "host_permissions": ["https://www.gov.il/he/api/*"],
   "action": {
     "default_popup": "popup.html",
